@@ -1,0 +1,20 @@
+#heading {
+  color: crimson;
+  font-size: 54px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.message{
+  font-family: monospace;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.error{
+  color: red;
+}
+
+p{
+ color: yellow;
+ background-color: black; 
+}
