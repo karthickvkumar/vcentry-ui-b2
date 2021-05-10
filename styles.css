@@ -1,5 +1,6 @@
 #heading {
-  color: crimson;
+  background-color: #04AA6D;
+  color: white;
   font-size: 54px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -17,4 +18,9 @@
 p{
  color: yellow;
  background-color: black; 
+}
+
+.body{
+  background-image: url("./images/shinchu.jpg");
+  background-repeat :repeat-y
 }
