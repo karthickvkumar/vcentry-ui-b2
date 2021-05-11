@@ -9,6 +9,10 @@
   font-family: monospace;
   color: blueviolet;
   text-decoration: underline;
+  text-transform: lowercase;
+  text-align: left;
+  text-indent: 100px;
+  letter-spacing: 10px;
 }
 
 .error{
@@ -18,9 +22,25 @@
 p{
  color: yellow;
  background-color: black; 
+ line-height: 3;
+ word-spacing: 10px;
 }
 
 .body{
-  background-image: url("./images/shinchu.jpg");
-  background-repeat :repeat-y
+  /* background-image: url("./images/shinchu.jpg");
+  background-repeat :repeat-y */
+}
+
+.shadow{
+  text-shadow: 2px 5px 4px red;
+}
+
+.layout-one{
+  height: 50px;
+  border: 2px solid #880e4f;
+}
+
+.layout-two{
+  border: 2px solid green;
+  height: 90vh;
 }
