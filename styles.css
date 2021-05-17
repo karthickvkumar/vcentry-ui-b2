@@ -2,7 +2,7 @@
   background-color: #04AA6D;
   color: white;
   font-size: 54px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 
 .message{
@@ -13,6 +13,7 @@
   text-align: left;
   text-indent: 100px;
   letter-spacing: 10px;
+  font-family: 'Sacramento', cursive;
 }
 
 .error{
@@ -42,7 +43,7 @@ p{
 
 .layout-two{
   border: 2px solid green;
-  height: 90vh;
+  height: 40vh;
 }
 
 .viewport{
@@ -58,7 +59,7 @@ p{
 }
 
 .red-box{
-  width: 100vh;
+  width: 100vw;
     height: 50px;
     background-color: red;
 }
@@ -67,4 +68,42 @@ p{
   width: 100%;
   height: 50px;
   background-color: blue;
+}
+
+table{
+  width: 50%;
+  border-collapse: collapse;
+}
+
+td{
+  height: 60px;
+  text-align: left;
+  vertical-align: bottom;
+  padding-left: 15px;
+}
+
+th{
+  height: 40px;
+  text-align: left;
+  padding-left: 15px;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}
+table, td, th{
+  border: 2px solid;
+  /* border-bottom: 2px solid rgb(158, 158, 158); */
+}
+
+.flex-container{
+  height: 250px;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item{
+  height: 75px;
+  width: 75px;
+  border: 2px solid blue;
 }
