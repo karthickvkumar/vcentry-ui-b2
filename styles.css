@@ -114,11 +114,15 @@ table, td, th{
   height: 92vh;
   border: 2px solid;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .row-one{
   height: 34%;
   border: 2px solid red;
+  display: flex;
+    flex-direction: row;
 }
 
 .row-two{
@@ -131,4 +135,16 @@ table, td, th{
 .row-three{
   height: 40%;
   border: 2px solid red;
+}
+
+.header-image{
+  border: 2px solid;
+    height: 100%;
+    width: 20%;
+}
+
+.header-content{
+  border: 2px solid;
+    height: 100%;
+    width: 80%;
 }
