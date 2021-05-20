@@ -107,5 +107,28 @@ table, td, th{
   height: 75px;
   width: 75px;
   border: 2px solid blue;
-  align-self: center;
+  align-self: center    ;
+}
+
+.main-container{
+  height: 92vh;
+  border: 2px solid;
+  padding: 20px;
+}
+
+.row-one{
+  height: 34%;
+  border: 2px solid red;
+}
+
+.row-two{
+  height: 20%;
+    border: 2px solid red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-three{
+  height: 40%;
+  border: 2px solid red;
 }
