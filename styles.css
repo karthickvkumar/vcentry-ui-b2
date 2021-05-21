@@ -19,13 +19,13 @@
 .error{
   color: red;
 }
-
+/* 
 p{
  color: yellow;
  background-color: black; 
  line-height: 3;
  word-spacing: 10px;
-}
+} */
 
 .body{
   /* background-image: url("./images/shinchu.jpg");
@@ -135,6 +135,9 @@ table, td, th{
 .row-three{
   height: 40%;
   border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .header-image{
@@ -147,4 +150,89 @@ table, td, th{
   border: 2px solid;
     height: 100%;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-info{
+  height: 35%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-para{
+  height: 65%;
+    border: 2px solid blue
+}
+
+.heading-icon{
+  width: 10%;
+  border: 2px solid;
+}
+
+.heading-text{
+  width: 75%;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-date{
+  width: 15%;
+  border: 2px solid;
+}
+
+.main-heading{
+  height: 50%;
+  border: 2px solid;
+}
+
+.sub-heading{
+  height: 50%;
+  border: 2px solid goldenrod;
+}
+
+.content-item{
+  width: 30%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-1{
+  height: 70%;
+    border: 2px solid;
+}
+
+.item-2{
+  height: 15%;
+    border: 2px solid red;
+}
+
+.item-3{
+  height: 15%;
+    border: 2px solid;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 99% 0;
+}
+
+.item-header{
+  margin: 0px;
+  text-align: center;
+}
+
+.header-message{
+  margin: 0px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.img-cirlce{
+  border-radius: 100px;
 }
