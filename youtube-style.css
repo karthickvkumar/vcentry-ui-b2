@@ -1,0 +1,57 @@
+body{
+  margin: 0px;
+}
+
+.main-body{
+  border: 2px solid;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header{
+  border: 2px solid red;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-wrapper{
+  border: 2px solid #6012d5;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  width: 20%;
+    border: 2px solid;
+    overflow: auto;
+}
+
+.content{
+  width: 80%;
+    border: 2px solid;
+}
+
+.list{
+  border: 2px solid green;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header-row-1{
+  width: 20%;
+    border: 2px solid violet;
+}
+
+.header-row-2{
+  border: 2px solid;
+    width: 65%;
+}
+
+.header-row-3{
+  border: 2px solid #4a148c;
+  width: 15%;
+}
