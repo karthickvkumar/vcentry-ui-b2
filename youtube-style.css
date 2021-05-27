@@ -46,6 +46,10 @@ body{
 .header-row-1{
   width: 20%;
     border: 2px solid violet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .header-row-2{
@@ -135,4 +139,13 @@ body{
 .video-option{
   border: 2px solid;
   width: 10%;
+}
+
+.icon-size-26{
+  font-size: 26px;
+}
+
+.logo-img{
+  width: 45%;
+    height: auto;
 }
