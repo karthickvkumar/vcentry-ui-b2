@@ -237,8 +237,12 @@ table, td, th{
   border-radius: 100px;
 }
 
-body{
-  background-color: coral;
+.bgcolor{
+  background-color: black !important;
+}
+
+.list-color{
+  color: white !important;
 }
 
 @media screen and (max-width : 500px) {
