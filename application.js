@@ -10,23 +10,40 @@ function calculation(){
 
   var mode = prompt("Enter the calculation sign");
 
-  if(mode === "+"){
-    final_result = parseInt(number_1) + parseInt(number_2);
+  switch(mode){
+    case "+":
+      final_result = parseInt(number_1) + parseInt(number_2);
+      break;
+    case "-":
+      final_result = parseInt(number_1) - parseInt(number_2);
+      break;
+    case "*":
+      final_result = parseInt(number_1) * parseInt(number_2);
+      break;
+    case "/":
+      final_result = parseInt(number_1) / parseInt(number_2);
+      break;
+    default:
+      final_result = "Please enter a valid calculation sign";
   }
-  else if(mode == "-"){
-    final_result = parseInt(number_1) - parseInt(number_2);
-    
-  }
-  else if(mode == "*"){
-    final_result = parseInt(number_1) * parseInt(number_2);
-    
-  }
-  else if(mode == "/"){
-    final_result = parseInt(number_1) / parseInt(number_2);
 
-  }else{
-    final_result = "Please enter a valid calculation sign"
-  }
+  // if(mode === "+"){
+  //   final_result = parseInt(number_1) + parseInt(number_2);
+  // }
+  // else if(mode == "-"){
+  //   final_result = parseInt(number_1) - parseInt(number_2);
+    
+  // }
+  // else if(mode == "*"){
+  //   final_result = parseInt(number_1) * parseInt(number_2);
+    
+  // }
+  // else if(mode == "/"){
+  //   final_result = parseInt(number_1) / parseInt(number_2);
+
+  // }else{
+  //   final_result = "Please enter a valid calculation sign"
+  // }
 
   console.log(final_result)
 }
